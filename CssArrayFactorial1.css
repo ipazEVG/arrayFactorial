@@ -1,0 +1,23 @@
+/* Css de la tabla de factoriales */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra para toda la página */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 50%;            /* Ocupa la mitad del ancho de la página */
+    margin: 20px auto;      /* Centrada con margen arriba y abajo */
+    border-collapse: collapse; /* Sin espacios entre las celdas */
+}
+
+/* Estilo para las celdas (th y td) */
+th, td {
+    border: 1px solid #ccc; /* Bordes grises */
+    padding: 8px;           /* Espacio dentro de las celdas */
+    text-align: center;      /* Texto centrado */
+}
+
+/* Fondo gris claro para el encabezado */
+th {
+    background-color: #f2f2f2;
+}
